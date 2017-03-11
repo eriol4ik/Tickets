@@ -9,16 +9,16 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Name Surname</title>
+    <title>Личные данные</title>
 </head>
 <body>
-    <fieldset>
-        <legend>Customer</legend>
-        <form:form action="/name" modelAttribute="ticketForm">
-            <span>Name: </span><form:input path="name"/><br>
-            <span>Surname: </span><form:input path="surname"/><br>
-            <input type="submit"/>
-        </form:form>
-    </fieldset>
+<fieldset>
+    <legend>Введите имя и фамилию:</legend>
+    <form:form action="/index" modelAttribute="ticketForm">
+        <span>Имя: </span><form:input path="name"/><br>
+        <span>Фамилия: </span><form:input path="surname"/><br>
+        <input type="submit"/>
+    </form:form>
+</fieldset>
 </body>
 </html>
