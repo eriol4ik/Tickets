@@ -13,13 +13,15 @@
     <link rel="stylesheet" href="../../css/style.css" media="screen" type="text/css">
 </head>
 <body>
-<fieldset>
-    <legend>Введите имя и фамилию:</legend>
-    <form:form action="/name_surname" modelAttribute="ticketForm">
-        <span>Имя: </span><form:input path="name"/><br>
-        <span>Фамилия: </span><form:input path="surname"/><br>
-        <input type="submit"/>
-    </form:form>
-</fieldset>
+<div class="center-block">
+    <fieldset>
+        <legend>Введите имя и фамилию:</legend>
+        <form:form action="/name_surname" modelAttribute="ticketForm">
+            <span>Имя: </span><form:input path="name"/><br>
+            <span>Фамилия: </span><form:input path="surname"/><br>
+            <input type="submit"/>
+        </form:form>
+    </fieldset>
+</div>
 </body>
 </html>
