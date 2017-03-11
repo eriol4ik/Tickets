@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>Личные данные</title>
+    <link rel="stylesheet" type="css" href="css/style.css">
 </head>
 <body>
 <fieldset>

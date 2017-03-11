@@ -9,8 +9,9 @@
 <html>
 <head>
     <title>Complete order</title>
+    <link rel="stylesheet" type="css" href="css/style.css">
 </head>
 <body>
-
+<H1 align="center">Вы успешно создали заказ!</H1>
 </body>
 </html>
