@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: grydzor
@@ -11,6 +12,12 @@
     <title>Credit Card</title>
 </head>
 <body>
-
+<fieldset>
+    <legend>Введите данные кредитной карты:</legend>
+    <form:form action="/credit" modelAttribute="ticketForm">
+        <span>Номер кредитной карты: </span><form:input path="credit"/><br>
+        <input type="submit"/>
+    </form:form>
+</fieldset>
 </body>
 </html>
