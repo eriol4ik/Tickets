@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Личные данные</title>
+    <link rel="stylesheet" href="../../css/style.css" media="screen" type="text/css">
 </head>
 <body>
 <fieldset>

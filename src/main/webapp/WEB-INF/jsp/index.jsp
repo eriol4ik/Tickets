@@ -10,7 +10,7 @@
 <html>
 <head>
     <title>Выбор места</title>
-    <link rel="stylesheet" type="css" href="css/style.css">
+    <link rel="stylesheet" href="../../css/style.css" media="screen" type="text/css">
 </head>
 <body>
     <fieldset>
