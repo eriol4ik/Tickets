@@ -10,11 +10,18 @@ import web.entity.TicketForm;
 @RequestMapping(value = "/")
 @SessionAttributes(types = TicketForm.class)
 public class MainController {
+
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String start(TicketForm ticketForm) {
 
+        return "index";
+    }
+
+    @RequestMapping(value = "/index", method = RequestMethod.POST)
+    public String index(TicketForm ticketForm) {
         return "name_surname";
     }
+
 
     @RequestMapping(value = "/name_surname", method = RequestMethod.POST)
     public String nameSurname(TicketForm ticketForm) {
