@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: grydzor
@@ -8,10 +9,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Complete order</title>
-    <link rel="stylesheet" type="css" href="css/style.css">
+    <title>Заказ</title>
 </head>
 <body>
-<H1 align="center">Вы успешно создали заказ!</H1>
+    <p>
+        Вы успешно оформили заказ!
+    </p>
 </body>
 </html>

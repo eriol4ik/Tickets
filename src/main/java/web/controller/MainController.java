@@ -30,10 +30,10 @@ public class MainController {
 
     @RequestMapping(value = "/credit", method = RequestMethod.POST)
     public String credit(TicketForm ticketForm) {
-        return "redirect:/complete";
+        return "complete";
     }
 
-    @RequestMapping(value = "/complete", method = RequestMethod.POST)
+    @RequestMapping(value = "/complete", method = RequestMethod.GET)
     public String complete(TicketForm ticketForm) {
 
         return "complete";
