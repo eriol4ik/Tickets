@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: grydzor
@@ -11,17 +12,12 @@
     <title>Choice place</title>
 </head>
 <body>
-<p><b>Выберите место для покупки.</b></p>
-<p><input type="checkbox" name="option1" value="a1" checked>1
-<p><input type="checkbox" name="option2" value="a2" checked>2
-<p><input type="checkbox" name="option3" value="a3" checked>3
-<p><input type="checkbox" name="option4" value="a4" checked>4
-<p><input type="checkbox" name="option5" value="a5" checked>5
-<p><input type="checkbox" name="option6" value="a6" checked>6
-<p><input type="checkbox" name="option7" value="a7" checked>7
-<p><input type="checkbox" name="option8" value="a8" checked>8
-<p><input type="checkbox" name="option9" value="a9" checked>9
-<p><input type="checkbox" name="option10" value="a10" checked>10<Br>
-<p><button onclick="location.href='name_surname'">Submit</button>
+    <fieldset>
+        <legend>Выберите место для покупки (с 1 до 10):</legend>
+        <form:form action="/index" modelAttribute="ticketForm">
+            <span>Place: </span><form:input path="ticketNumber"/><br>
+            <input type="submit"/>
+        </form:form>
+    </fieldset>
 </body>
 </html>
