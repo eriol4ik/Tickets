@@ -22,6 +22,6 @@
 <p><input type="checkbox" name="option8" value="a8" checked>8<Br>
 <p><input type="checkbox" name="option9" value="a9" checked>9<Br>
 <p><input type="checkbox" name="option10" value="a10" checked>10<Br>
-<p><input type="button" name="button"/>
+<p><input type="button" name="button">Submit</button>
 </body>
 </html>
