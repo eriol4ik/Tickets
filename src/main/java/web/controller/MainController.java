@@ -11,8 +11,24 @@ import web.entity.TicketForm;
 @SessionAttributes(types = TicketForm.class)
 public class MainController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String start() {
-        return "index";
+    public String start(TicketForm ticketForm) {
+
+        return "name_surname";
     }
 
+    @RequestMapping(value = "/name_surname", method = RequestMethod.POST)
+    public String nameSurname(TicketForm ticketForm) {
+        return "credit";
+    }
+
+    @RequestMapping(value = "/credit", method = RequestMethod.POST)
+    public String credit(TicketForm ticketForm) {
+        return "redirect:/complete";
+    }
+
+    @RequestMapping(value = "/complete", method = RequestMethod.POST)
+    public String complete(TicketForm ticketForm) {
+
+        return "complete";
+    }
 }
