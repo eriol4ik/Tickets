@@ -12,7 +12,7 @@
     <title>Заказ</title>
 </head>
 <body>
-    <p>
+    <p align="center">
         Вы успешно оформили заказ!
     </p>
 </body>
