@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="../../css/style.css" media="screen" type="text/css">
 </head>
 <body>
+<div class="center-block">
     <p align="center">
         Вы успешно оформили заказ!
     </p>
+</div>
 </body>
 </html>

@@ -6,7 +6,7 @@ body {
     left: 0;
     overflow: auto;
 }
-.login {
+.center-block {
     width: 500px;
     height: auto;
     position: absolute;
