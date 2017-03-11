@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../css/style.css" media="screen" type="text/css">
 </head>
 <body>
+<div class="login">
     <fieldset>
         <legend>Выберите место для покупки (с 1 до 10):</legend>
         <form:form action="/index" modelAttribute="ticketForm">
@@ -20,5 +21,6 @@
             <input type="submit"/>
         </form:form>
     </fieldset>
+</div>
 </body>
 </html>
