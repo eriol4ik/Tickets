@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: grydzor
@@ -11,6 +12,13 @@
     <title>Name Surname</title>
 </head>
 <body>
-
+    <fieldset>
+        <legend>Customer</legend>
+        <form:form action="/name" modelAttribute="ticketForm">
+            <span>Name: </span><form:input path="name"/><br>
+            <span>Surname: </span><form:input path="surname"/><br>
+            <input type="submit"/>
+        </form:form>
+    </fieldset>
 </body>
 </html>
