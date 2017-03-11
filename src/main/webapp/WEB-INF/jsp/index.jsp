@@ -17,8 +17,10 @@
     <fieldset>
         <legend>Выберите место для покупки (с 1 до 10):</legend>
         <form:form action="/index" modelAttribute="ticketForm">
-            <span>Place: </span><form:input path="ticketNumber"/><br>
-            <input type="submit"/>
+            <span>Place: </span><form:input path="ticketNumber"/><br><br>
+            <div align="center">
+                <input type="submit"/>
+            </div>
         </form:form>
     </fieldset>
 </div>

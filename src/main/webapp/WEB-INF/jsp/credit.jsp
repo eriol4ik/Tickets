@@ -10,8 +10,10 @@
     <fieldset>
         <legend>Введите данные кредитной карты:</legend>
         <form:form action="/credit" modelAttribute="ticketForm">
-            <span>Номер кредитной карты: </span><form:input path="credit"/><br>
+            <span>Номер кредитной карты: </span><form:input path="credit"/><br><br>
+        <div align="center">
             <input type="submit"/>
+        </div>
         </form:form>
     </fieldset>
 </div>

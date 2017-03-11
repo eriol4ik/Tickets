@@ -17,9 +17,11 @@
     <fieldset>
         <legend>Введите имя и фамилию:</legend>
         <form:form action="/name_surname" modelAttribute="ticketForm">
-            <span>Имя: </span><form:input path="name"/><br>
-            <span>Фамилия: </span><form:input path="surname"/><br>
+            <span>Имя:     </span><form:input path="name"/><br>
+            <span>Фамилия: </span><form:input path="surname"/><br><br>
+        <div align="center">
             <input type="submit"/>
+        </div>
         </form:form>
     </fieldset>
 </div>
