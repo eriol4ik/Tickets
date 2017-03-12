@@ -9,6 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Выбор места</title>
     <link rel="stylesheet" href="../../css/style.css" media="screen" type="text/css">
 </head>

@@ -7,7 +7,7 @@ import javax.persistence.Id;
 @Entity
 public class TicketForm {
     @Id
-    private Long ticketNumber;
+    private String ticketNumber;
 
     @Column
     private String name;
@@ -21,11 +21,11 @@ public class TicketForm {
     public TicketForm() {
     }
 
-    public Long getTicketNumber() {
+    public String getTicketNumber() {
         return ticketNumber;
     }
 
-    public void setTicketNumber(Long ticketNumber) {
+    public void setTicketNumber(String ticketNumber) {
         this.ticketNumber = ticketNumber;
     }
 
